@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
     --primary:  #198754;
-    --secondary: #0B2154;
+    --secondary:#000080;
     --light: #F2F2F2;
     --dark: #111111;
     --orange: #fd7e14;
@@ -104,7 +104,7 @@
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: var(--secondary);
+    color: var(--primary);
 }
 
 @media (max-width: 991.98px) {
@@ -221,9 +221,12 @@
 .nav-link i{
     color:var(--primary);
 }
+.service .nav .nav-link.active i{
+    background: var(--dark);
+}
 
 .service .nav .nav-link.active {
-    background: var(--secondary);
+    background: var(--primary);
 }
 
 .service .nav .nav-link.active h4 {
@@ -285,7 +288,7 @@
 
 .team-item .team-overlay .btn:hover {
     color: #FFFFFF;
-    background: var(--secondary)
+    background: var(--primary)
 }
 
 
@@ -321,8 +324,8 @@
 }
 
 .testimonial-carousel .owl-dot.active {
-    background: var(--secondary);
-    border-color: var(--secondary);
+    background: var(--primary);
+    border-color: var(--primary);
 }
 
 
@@ -346,7 +349,7 @@
 }
 
 .footer .btn.btn-social:hover {
-    color: var(--secondary);
+    color: var(--primary);
 }
 
 .footer .btn.btn-link {
